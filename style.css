@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F0FEF1;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.info{
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.info h1{
+    color: #084321;
+    font-size: 4em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.info .eng{
+    padding-top: 20px;
+    color: black;
+    width: 60%;
+    font-size: 1.3em;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.info .hindi{
+    padding-top: 20px;
+    color: black;
+    width: 60%;
+    font-size: 1.3em;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.info button{
+    margin-top: 30px;
+    background-color: #7BAB8F;
+    border: none;
+    padding: 13px;
+    border-radius: 70px;
+    color: #F0FEF1;
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.06)) drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.10));
+    text-transform: uppercase;
+    transition: all .2s;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.info button:hover{
+    cursor: pointer;
+    background-color: #084321;
+}
+
+.info button img{
+    padding-left: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: right;
+    color: white;
+}
+
+.top-right ul{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 5px;
+    gap: 20px;
+}
+
+.top-right ul li a{
+    padding: 5px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1em;
+    transition: all .2s;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.top-right ul li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.over{
+    position: absolute;
+    right: 5px;
+    top: 40px;
+}
+
+.main h1{
+    text-align: center;
+    color: #084321;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+.main .list{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.main .list ul{
+    list-style: none;
+    display: flex;
+}
+
+.main .list ul li{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.main .list ul li img{
+    margin-bottom: 25px;
+}
+
+.main .list ul li p{
+    margin-top: 10px;
+}
+
+.main .list ul li:hover{
+    border: 2px solid #084321;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #7BAB8F;
+    margin-top: 40px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.center .outer{
+    color: #084321;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+.center .inner{
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inner form{
+    display: flex;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.outer-inner{
+    display: flex;
+    justify-content: center;
+}
+
+.center .inner input{
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+.center .inner button{
+    border: none;
+    background-color: #2F2E41;
+    color: white;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.center .inner button:hover{
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 40px;
+}
+
+.f-left{
+    position: relative;
+    text-align: center;
+}
+
+.bottom-left{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+}
+
+.bottom-left ul{
+    list-style: none;
+}
+
+.bottom-left ul li{
+    color: white;
+    padding-top: 20px;
+    font-family: 'Karla', sans-serif;
+}
+
+.bottom-left ul li:hover{
+    color: #7BAB8F;
+    cursor: pointer;
+}
+
+.bottom-right ul{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 10px;
+    right: 280px;
+}
+
+.bottom-right ul li{
+    padding-left: 30px;
+}
+
+.bottom-right ul li img{
+    width: 55%;
+}

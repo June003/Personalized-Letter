@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized letter and gifting</title>
+    <link rel="stylesheet" href="informal.css">
+    <script src="informal.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <link rel="icon" href="/images/img.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Karla:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Mrs+Saint+Delafield&family=Parisienne&family=Qwigley&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html"><img class="logo" src="/images/logo.svg" alt=""></a>
+    <section class="divide">
+        <section class="left">
+            <form action="cart.html" id="left">
+                <input type="text" placeholder="Enter your address*" required id="i1">
+                <input type="text" placeholder="Enter your city, zipcode*" required id="i2">
+                <div class="date">
+                    <p id="i13">Date:</p>
+                    <input type="text" placeholder="Select date*" onfocus="(this.type='date')" required id="i3">
+                </div>
+                <input type="text" placeholder="Enter receiver's name*" required id="i4">
+                <input type="text" placeholder="Enter receiver's address*" required id="i5">
+                <input type="text" placeholder="Enter receiver's city, zipcode*" required id="i6">
+                <div class="dear">
+                    <p id="i7">Dear&nbsp;</p>
+                    <input type="text" placeholder="Receiver's name*" required id="i8">
+                    <p id="i9">&nbsp;,</p>
+                </div>
+                <div class="letter">
+                    <textarea onkeyup="charcountupdate(this.value)" cols="30" rows="10" maxlength="500" placeholder="Enter your message*" id="i10"></textarea>
+                    <span id=charcount></span>
+                </div>
+                <select required id="i11">
+                    <option value = "Select salutation*"> Select salutation </option>
+                    <option value = "Yours truly"> Yours truly </option>
+                    <option value = "Yours sincerely"> Yours sincerely </option>
+                    <option value = "Your lovingly"> Your lovingly </option>
+                    <option value = "Yours obidiently"> Yours obidiently </option>
+                    <input type="text" placeholder="Enter your name*" required id="i12">
+                </select>
+        </section>
+        <section class="right">
+            <img src="/Letter-images/blob.svg" alt="">
+            <div class="paper">
+                <p> 1. Select paper design*</p>
+                <button onclick="c1()">Pink</button>
+                <button onclick="c2()">Green</button>
+                <button onclick="c3()">Blue</button>
+                <button onclick="c4()">Purple</button>
+                <button onclick="c5()">Orange </button>
+                <button onclick="c6()">Coffe Brown</button>
+                <button onclick="c7()">Gray</button>
+            </div>
+            <div class="calligraphy">
+                <select onchange="changingFontStyle (this);">
+                    <option value = "2. Select Font"> 3. Select Font* </option>
+                    <option value = "Cookie"> Cookie </option>
+                    <option value = "Sacramento"> Sacramento </option>
+                    <option value = "Great Vibes"> Great Vibes </option>
+                    <option value = "Parisienne"> Parisienne </option>
+                    <option value = "Mrs Saint Delafield"> Mrs Saint Delafield </option>
+                    <option value = "Qwigley"> Qwigley </option>
+                </select>
+            </div>
+            <div class="color">
+                <p>3. Select ink color you want*</p>
+                <input id = "colorInput" type = "color">
+                <button onclick = "selectColor()"> Change the color </button>
+            </div>
+            <a href="/cart.html"><button>ADD TO CART</button></a>
+        </form>
+            <a href="/type.html"><button>GO BACK</button></a>
+        </section>
+    </section>
+</body>
+</html>

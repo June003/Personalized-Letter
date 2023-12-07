@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F1F7ED;
+}
+.top-right{
+    position: fixed;
+    width: 20%;
+    right: 0;
+    top: 0;
+}
+
+.bottom-left{
+    position: fixed;
+    width: 30%;
+    left: 0;
+    bottom: 0;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: #558569;
+    font-size: 53px;
+    margin-left: 50px;
+}
+.girl{
+    position: fixed;
+    width: 45%;
+    left: 28%;
+    top: 5%;
+}
+
+.choose{
+    display: flex;
+    gap: 280px;
+}
+
+.choose a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #263238;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+.choose a:hover{
+    color: #558569;
+}
+
+.pos{
+    position: absolute;
+    left: 27%;
+    top: 17%;
+}
+
+.ocircle{
+    background-color: #558569;
+    width: 60px;
+    height: 60px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    outline: 1px solid black;
+    margin-bottom: 20px;
+}

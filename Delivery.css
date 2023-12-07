@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F1F7ED;
+}
+
+.logo{
+    width: 20%;
+    margin-left: -40px;
+}
+
+.divide{
+    display: flex;
+}
+
+.left{
+    width: 80%;
+    margin-left: 40px;
+}
+
+.left h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.left .company{
+    width: 90%;
+}
+
+.left input{
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.50);
+    background: linear-gradient(178deg, rgba(254, 254, 254, 0.40) 0%, rgba(254, 254, 254, 0.12) 100%);
+    backdrop-filter: blur(2.5px);
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+}
+
+.left .flex{
+    width: 42.5%;
+}
+
+.billing{
+    display: flex;
+    margin-top: 10px;
+}
+
+.billing p {
+    margin-left: 5px;
+    margin-top: 8px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+.billing a{
+    margin-left: 20px;
+    margin-top: 8px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    color: #087A36;
+    font-size: 20px;
+}
+
+.billing a:hover{
+    color: #243E36;
+}
+
+.billing input{
+    accent-color: #8FC0A9;
+}
+
+.btn{
+    display: flex;
+}
+
+.width{
+    width: 48.5%;
+}
+
+.left button{
+    background-color: #243E36;
+    border: none;
+    outline: none;
+    color: white;
+    width: 94%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+.left button:hover{
+    background-color: #7CA982;
+    cursor: pointer;
+}
+
+.right{
+    background-color: #243E36;
+    color: white;
+    width:35%;
+    height: 100vh;
+    box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.25);
+    margin-left: 10px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.dottedline{
+    border-top: 1.5px dashed white ;
+    width: 55px;
+    margin-top: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.right .Delivery{
+    color: #087A36;
+}
+
+h2, .details, .summary{
+    margin-left: 32px;
+}
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin-top: 20px;
+    word-spacing: 10px;
+}
+
+.differ{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+.details{
+    margin-bottom: 50px;
+}
+
+.ds{
+    display: flex;
+}
+
+.ds img{
+    margin-top: 20px;
+}

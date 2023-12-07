@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F0FEF1;
+}
+
+.logo img{
+    width: 15%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main .left{
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.main .left h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    color: #558569;
+}
+
+.main .left .social img{
+    width: 12%;
+    padding: 10px;
+}
+
+.main .right img{
+    width: 80%;
+}
+
+.main .left .or{
+    font-family: 'Karla', sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+.main .left form{
+    margin-top: 20px;
+}
+
+.main .left .name{
+    background-color: #D9DEDB;
+    display: flex;
+    border-radius: 10px;
+}
+
+.main .left .name img{
+    width: 9%;
+}
+
+.main .left .name input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
+}
+
+.main .left .mail{
+    background-color: #D9DEDB;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.main .left .mail img{
+    width: 9%;
+}
+
+.main .left .mail input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
+}
+
+.main .left .pswd{
+    background-color: #D9DEDB;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.main .left .pswd img{
+    width: 9%;
+}
+
+.main .left .pswd input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
+}
+
+.left input[type=submit]{
+    margin-top: 15px;
+    background-color: #92BAA2;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-family: 'Karla', sans-serif;
+}
+
+.left input[type=submit]:hover{
+    background-color: #195f37;
+    cursor: pointer;
+}
+
+.main .left p{
+    margin-top: 20px;
+    font-family: 'Karla', sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+.main .left p a{
+    text-decoration: none;
+    color: #558569;
+}
+
+.main .left p a:hover{
+    color: #195f37;
+}
+
+#must{
+    font-size: 15px;
+    color: #195f37;
+    font-family: 'Karla', sans-serif;
+}

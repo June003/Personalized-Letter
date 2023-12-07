@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo img{
+    width: 15%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main .left img{
+    width: 75%;
+}
+
+.main .right h1{
+    text-align: center;
+    color: #7F398B;
+    margin-bottom: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+}
+
+.main .right .cc .circle{
+    background-color: #7F398B;
+    border-radius: 50%;
+    width: 8%;
+}
+
+.main .right .cc ul{
+    display: flex;
+}
+
+.main .right .cc ul li{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    margin: 6px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2em;
+    transition: transform 0.2s;
+}
+
+.main .right .cc ul li:hover{
+    border: 3px solid #7F398B;
+    transform: scale(1.05);
+}
+
+.main .right .cc ul li img{
+    padding: 30px;
+    width: 80%;
+}
+
+.main .right .cc .btn{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.main .right .cc button{
+    background-color: transparent;
+    border: none;
+}

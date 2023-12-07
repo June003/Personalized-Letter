@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    background-color: #649C7B;
+}
+
+.divide{
+    display: flex;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.options{
+    padding-right: 30px;
+}
+
+.differ{
+    display: flex;
+    flex-direction: column;
+}
+
+.differ a{
+    text-decoration: none;
+}
+
+.opt{
+    margin-left: 40px;
+}
+
+.list{
+    display: flex;
+    margin-top: 25px;
+}
+
+.list img{
+    width: 20%;
+}
+
+.list p{
+    color: white;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+.list:hover{
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 5px;
+    cursor: pointer;
+    transform: 1.2;
+}
+
+.list p:hover{
+    color: black;
+} 
+
+.inside{
+    background-color: white;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.log{
+    margin-top: 260px;
+    display: flex;
+}
+
+.log img{
+    width: 20%;
+    margin-left: 40px;
+}
+
+.log p{
+    color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+.inside{
+    padding-left: 50px;
+}
+
+.user{
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.user img{
+    width: 8%;
+}
+
+.user h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 38px;
+    margin-left: 10px;
+}
+
+.order{
+    background-color: #2F2E41;
+    display: flex;
+    padding: 15px;
+    border-radius: 40px;
+    width: 80%;
+    align-items: center;
+}
+
+.image{
+    background-color: white;
+    width: 25%;
+    border-radius: 40px;
+    height: 120px;
+}
+
+.order p{
+    color: white;
+}
+
+#complete{
+    margin-left: 40px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+}
+
+#or, .order a{
+    margin-left: 150px;
+    font-family: 'Karla', sans-serif;
+}
+
+#or{
+    font-size: 30px;
+}
+
+.order a button{
+    border: none;
+    outline: none;
+    background-color: #649C7B;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.order a button:hover{
+    background-color: #2b6142;
+    cursor: pointer;
+}
+
+.points{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+.num{
+    margin-left: 10px;
+}
+
+.points, .join{
+    background-color: #649C7B;
+    margin-top: 10px;
+    width: 35%;
+    border-radius: 25px;
+    padding: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+.flower{
+    position: absolute;
+    top: 160px;
+    right: -110px;
+}
+
+.flower img{
+    width: 78%;
+}
+
+.know{
+    background-color: #649C7B;
+    margin-top: 10px;
+    width: 35%;
+    border-radius: 25px;
+    padding-left: 15px;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.join{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.join h1{
+    color: #2F2E41;
+}
+
+.join h1:hover{
+    color: #383653;
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e7ecf5;
+}
+
+.logo img {
+  width: 15%;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main .left img {
+  width: 81%;
+}
+
+.main .right {
+  text-align: center;
+}
+
+.main .right h1 {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 20px;
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
+}
+
+.main .right .mail {
+  background-color: rgba(182, 199, 227, 0.21);
+  display: flex;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+.main .right .mail input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 1.2em;
+}
+
+.main .right .mail img {
+  width: 9%;
+}
+
+.main .right .pswd {
+  background-color: rgba(182, 199, 227, 0.21);
+  display: flex;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.main .right .pswd input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 1.2em;
+}
+
+.main .right .pswd img {
+  width: 8%;
+}
+
+.main .right .other {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-family: "Karla", sans-serif;
+}
+
+.main .right .other .l-side {
+  display: flex;
+}
+
+.other .l-side input {
+  accent-color: #0d47a1;
+}
+
+.right input[type="submit"] {
+  border: none;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: linear-gradient(197deg, #0d47a1 0%, rgba(13, 71, 161, 0.44) 100%);
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
+    0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+  font-family: "Karla", sans-serif;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.right input[type="submit"]:hover {
+  background: linear-gradient(197deg, #06285a 0%, rgba(5, 35, 80, 0.44) 100%);
+}
+
+.main .right .or {
+  margin-top: 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 1.2em;
+}
+
+.main .right .social {
+  margin-top: 15px;
+}
+
+.main .right .social img {
+  width: 10%;
+  padding: 10px;
+}
+
+.main .right .dont {
+  font-family: "Karla", sans-serif;
+  font-size: 1.2em;
+}
+
+.main .right .dont a {
+  text-decoration: none;
+  color: #104aa2;
+}
+
+.main .right .dont a:hover {
+  color: #072a5e;
+}
+
+#must {
+  font-size: 14px;
+  color: #072a5e;
+  font-family: "Karla", sans-serif;
+}

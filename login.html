@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized letter and gifting</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+    <link rel="icon" href="/images/img.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Karla:wght@200;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="logo">
+        <a href="index.html"><img src="/images/logo.svg" alt=""></a>
+    </section>
+    <section class="main">
+        <div class="left">
+            <img src="/login-images/mobile.svg" alt="">
+        </div>
+        <div class="right">
+            <h1>Please enter your details</h1>
+            <form action="/dashboard.html" onsubmit ="return verifyPassword()">
+               <div class="mail">
+                <img src="/login-images/email.svg" alt="">
+                <input type="text" placeholder="Enter your email*" required>
+               </div>
+                <div class="pswd">
+                    <img src="/login-images/pswd.svg" alt="">
+                    <input type="password" placeholder="Enter your password*" required id="enter_pswd">
+                </div>
+                <span id = "must"></span>
+                <input type="submit" value="Login">
+            </form>
+            <div class="other">
+                <div class="l-side">
+                    <input type="checkbox">
+                    <p>Remember me</p>
+                </div>
+                <div class="r-side">
+                    <p>Forgot password?</p>
+                </div>
+            </div>
+            <p class="or">or login using</p>
+            <div class="social">
+                <a href="#"><img src="/login-images/facebook.svg" alt=""></a>
+                <a href="#"><img src="/login-images/google.svg" alt=""></a>
+                <a href="#"><img src="/login-images/twitter.svg" alt=""></a>
+            </div>
+            <p class="dont" >Don't have an account? <a href="signup.html">Sign up</a> </p>
+        </div>
+    </section>
+</body>
+</html>
